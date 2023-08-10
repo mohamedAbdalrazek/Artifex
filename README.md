@@ -58,14 +58,17 @@ To run the Awesome Store Website locally on your machine, follow these steps:
    ```bash
     # Clone the repository
     git clone https://github.com/mohamedAbderlazek/Artifex.git
-    
-    # Navigate to the project directory
+```
+# Navigate to the project directory
+```bash
     cd Artifex
-    
-    # Install dependencies
+```
+# Install dependencies
+```bash    
     npm install
-    
-    # Start the development server
+````
+# Start the development server
+```bash     
     npm run dev
 ```
 ## contact
