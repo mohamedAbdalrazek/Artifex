@@ -115,7 +115,7 @@ function Cart(props) {
                 </div>
                 <div className="col-2 item--image-container">
                     <img
-                        src={`./../../cardImages/${item.name}.jpg`}
+                        src={`../../cardImages/${item.name}.jpg`}
                         alt=""
                         className="item--image"
                     />
