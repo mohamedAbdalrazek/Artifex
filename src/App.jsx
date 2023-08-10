@@ -115,18 +115,6 @@ function App() {
             };
         });
     }
-    // function handleChange(event) {
-    //     const { name, value } = event.target;
-    //     if (value) {
-    //         setCardData((prevCardData) => {
-    //             console.log(prevCardData[0].title);
-    //             return prevCardData.filter(
-    //                 (ele) => ele.title.indexOf(value) !== -1
-    //             );
-    //         });
-    //     }
-    //     console.log(cardData);
-    // }
     return (
         <div>
             <Nav

@@ -40,14 +40,15 @@ function ExtendedCard(props) {
                     <p className="extended--desc">اللون:متعدد الألوان</p>
                     <p className="extended--desc">الطول:40سم</p>
                     <p className="extended--desc">العرض:40سم</p>
-                    <p className="extended--available">{currentItem.itemsNumber} العناصر المتوفرة</p>
+                    <p className="extended--available">{currentItem.itemsNumber} العناصر المتوفره</p>
                 </div>
                 <div className="col-4 extended--image-cover">
                     <img
-                        src={`cardImages/${currentItem.name}.jpg`}
+                        src={`./cardImages/${currentItem.name}.jpg`}
                         alt=""
                         className="extended--image"
                     />
+                    
                 </div>
                 <div className="extended--count">
                     <button className="count" onClick={plus}>

@@ -28,7 +28,7 @@ function Main(props) {
                 {!card.itemsNumber?<span className="card--unavailable"> غير متوفر</span>:undefined}
                 <div className="card--image-container">
                     <img
-                        src={`cardImages/${card.name}.jpg`}
+                        src={`./cardImages/${card.name}.jpg`}
                         alt=""
                         className="card--photo"
                     />

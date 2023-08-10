@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-
 function Cart(props) {
     const totalPrice = props.cartItems.totalPrice;
     const itemCount = props.cartItems.itemCount;
@@ -116,7 +115,7 @@ function Cart(props) {
                 </div>
                 <div className="col-2 item--image-container">
                     <img
-                        src={`cardImages/${item.name}.jpg`}
+                        src={`./cardImages/${item.name}.jpg`}
                         alt=""
                         className="item--image"
                     />
