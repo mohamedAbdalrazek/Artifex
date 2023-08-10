@@ -33,7 +33,7 @@ function Main(props) {
                 ) : undefined}
                 <div className="card--image-container">
                     <img
-                        src={`/Artifix/cardImages/${card.name}.jpg`}
+                        src={`./../../cardImages/${card.name}.jpg`}
                         alt=""
                         className="card--photo"
                     />
