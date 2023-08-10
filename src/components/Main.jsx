@@ -1,6 +1,5 @@
 import { React, useState } from "react";
 import ExtendedCard from "./ExtendedCard";
-
 function Main(props) {
     const [data, setData] = useState(props.data);
     const [showExtended, setShowExtended] = useState(false);
@@ -34,7 +33,7 @@ function Main(props) {
                 ) : undefined}
                 <div className="card--image-container">
                     <img
-                        src={`/cardImages/${card.name}.jpg`}
+                        src={`/Artifix/cardImages/${card.name}.jpg`}
                         alt=""
                         className="card--photo"
                     />
