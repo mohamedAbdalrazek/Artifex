@@ -18,28 +18,35 @@ function Main(props) {
         }
         setShowExtended((prevShowExtended) => !prevShowExtended);
     }
-    
+
     const dataCard = data.map((card) => {
         return (
             <div
-                className={`card col-sm-6 col-md-4 col-lg-3 ${!card.itemsNumber?"unavailable":undefined}`}
-                onClick={card.itemsNumber? () => toggleExtended(card.id):undefined}
+                className={`card col-sm-6 col-md-4 col-lg-3 ${
+                    !card.itemsNumber ? "unavailable" : undefined
+                }`}
+                onClick={
+                    card.itemsNumber ? () => toggleExtended(card.id) : undefined
+                }
             >
-                {!card.itemsNumber?<span className="card--unavailable"> غير متوفر</span>:undefined}
+                {!card.itemsNumber ? (
+                    <span className="card--unavailable"> غير متوفر</span>
+                ) : undefined}
                 <div className="card--image-container">
                     <img
-                        src={`./cardImages/${card.name}.jpg`}
+                        src={`/cardImages/${card.name}.jpg`}
                         alt=""
                         className="card--photo"
                     />
                 </div>
                 <div className="card--info">
-                    <div className="card--header">{
-                        
-                        <div className="card--price">
-                            <span> {card.price} </span>
-                            <span className="price--tag">ج.م</span>
-                        </div>}
+                    <div className="card--header">
+                        {
+                            <div className="card--price">
+                                <span> {card.price} </span>
+                                <span className="price--tag">ج.م</span>
+                            </div>
+                        }
                         <h1 className="card--title">{card.title}</h1>
                     </div>
                     <p className="card--description">{card.minDesc}</p>
@@ -57,8 +64,8 @@ function Main(props) {
                     currentItem={currentItem}
                     id={currentId}
                     addItem={props.addItem}
-                    toggleCart = {props.toggleCart}
-                    cartLength = {props.cartLength}
+                    toggleCart={props.toggleCart}
+                    cartLength={props.cartLength}
                 />
             )}
         </div>

@@ -44,7 +44,7 @@ function ExtendedCard(props) {
                 </div>
                 <div className="col-4 extended--image-cover">
                     <img
-                        src={`./cardImages/${currentItem.name}.jpg`}
+                        src={`/cardImages/${currentItem.name}.jpg`}
                         alt=""
                         className="extended--image"
                     />
