@@ -23,7 +23,7 @@ function ExtendedCard(props) {
         });
     }, [count]);
     return (
-        <div className="extended">
+        <div className="extended" key={currentItem.key}>
             <div className="extended--overlay" onClick={toggleExtended}></div>
             <div className="container row">
                 <p className="cart--close" onClick={toggleExtended}>

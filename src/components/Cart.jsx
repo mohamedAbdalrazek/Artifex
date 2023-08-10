@@ -81,7 +81,7 @@ function Cart(props) {
 
     const cartItem = cartItems.map((item) => {
         return (
-            <div className="row cart--item">
+            <div className="row cart--item" key={item.key}>
                 <p
                     className="item--delete"
                     onClick={() => props.deleteItem(item.id, item)}

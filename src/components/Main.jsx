@@ -27,6 +27,7 @@ function Main(props) {
                 onClick={
                     card.itemsNumber ? () => toggleExtended(card.id) : undefined
                 }
+                key={card.key}
             >
                 {!card.itemsNumber ? (
                     <span className="card--unavailable"> غير متوفر</span>
