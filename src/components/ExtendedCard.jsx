@@ -6,8 +6,8 @@ function ExtendedCard(props) {
     const [currentItem, setCurrentItem] = useState(props.currentItem);
     const id = props.id;
     function plus() {
-        if(count < currentItem.itemsNumber)
-        setCount((prevCount) => prevCount + 1);
+        if (count < currentItem.itemsNumber)
+            setCount((prevCount) => prevCount + 1);
     }
     function minus() {
         if (count > 1) {
@@ -40,15 +40,16 @@ function ExtendedCard(props) {
                     <p className="extended--desc">اللون:متعدد الألوان</p>
                     <p className="extended--desc">الطول:40سم</p>
                     <p className="extended--desc">العرض:40سم</p>
-                    <p className="extended--available">{currentItem.itemsNumber} العناصر المتوفره</p>
+                    <p className="extended--available">
+                        {currentItem.itemsNumber} العناصر المتوفره
+                    </p>
                 </div>
                 <div className="col-4 extended--image-cover">
                     <img
-                        src={`../../cardImages/${currentItem.name}.jpg`}
+                        src={`/Artifex/assets/${currentItem.name}.jpg`}
                         alt=""
                         className="extended--image"
                     />
-                    
                 </div>
                 <div className="extended--count">
                     <button className="count" onClick={plus}>
@@ -67,9 +68,9 @@ function ExtendedCard(props) {
                 </button>
                 <div
                     className="nav--cart extended--cart"
-                    onClick={()=> {
-                        props.cartLength?props.toggleExtended():undefined;
-                        props.cartLength?props.toggleCart():undefined;
+                    onClick={() => {
+                        props.cartLength ? props.toggleExtended() : undefined;
+                        props.cartLength ? props.toggleCart() : undefined;
                     }}
                 >
                     <i className="fa-solid fa-cart-shopping cart--icon"></i>

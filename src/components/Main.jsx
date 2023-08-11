@@ -34,7 +34,7 @@ function Main(props) {
                 ) : undefined}
                 <div className="card--image-container">
                     <img
-                        src={`../../cardImages/${card.name}.jpg`}
+                        src={`/Artifex/assets/${card.name}.jpg`}
                         alt=""
                         className="card--photo"
                     />

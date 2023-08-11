@@ -63,7 +63,7 @@ function Cart(props) {
         }
         if (check) {
             setShowConfirmatin(true);
-            props.clearCart()
+            props.clearCart();
         }
     }
 
@@ -115,7 +115,7 @@ function Cart(props) {
                 </div>
                 <div className="col-2 item--image-container">
                     <img
-                        src={`../../cardImages/${item.name}.jpg`}
+                        src={`/Artifex/assets/${item.name}.jpg`}
                         alt=""
                         className="item--image"
                     />
@@ -271,7 +271,9 @@ function Cart(props) {
                 لقد تم ارسال طلبكم بنجاح سيتم التواصل معكم في خلال 24 ساعة
                 لتأكيد الطلب
             </p>
-            <button className="continue-shopping" onClick={toggleCart}>اكمال التسوق</button>
+            <button className="continue-shopping" onClick={toggleCart}>
+                اكمال التسوق
+            </button>
         </div>
     );
     return (
