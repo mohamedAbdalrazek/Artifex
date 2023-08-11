@@ -44,7 +44,7 @@ function Cart(props) {
         !formData.name
             ? (setShowNameError(true), (check = false))
             : setShowNameError(false);
-        !formData.phone || formData.phone / 2 === NaN
+        !formData.phone 
             ? (setShowPhoneError(true), (check = false))
             : setShowPhoneError(false);
         !formData.email || !formData.email.includes("@")
@@ -54,12 +54,10 @@ function Cart(props) {
             !formData.address
                 ? (setShowDeliveryError(true), (check = false))
                 : setShowDeliveryError(false);
-            console.log(check);
         } else {
             !formData.metro
                 ? (setShowDeliveryError(true), (check = false))
                 : setShowDeliveryError(false);
-            console.log(check);
         }
         if (check) {
             setShowConfirmatin(true);

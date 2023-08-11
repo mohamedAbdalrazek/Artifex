@@ -105,14 +105,7 @@ body {
     overflow: hidden;
     cursor: pointer;
 }
-@media screen and (max-width: 576px) {
-    .main .row {
-        justify-content: center;
-    }
-    .card {
-        width: calc(60%);
-    }
-}
+
 @media screen and (min-width: 576px) {
     .card {
         width: calc(100% / 2 - 15px);
@@ -603,4 +596,40 @@ body {
     font-size: 22px;
     cursor: pointer;
     margin-right: 15px;
+}
+@media screen and (max-width: 576px) {
+    .main .row {
+        justify-content: center;
+    }
+    .card {
+        width: calc(60%);
+    }
+    .nav--form {
+        display: none;
+    }
+
+    .footer--credit{
+        text-align: center;
+    }
+    .footer--social {
+        display: flex;
+    }
+    .cart--second-header{
+        font-size: 20px;
+        width: 30%;
+    }
+    .cart--price{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .cart--price span,
+    .cart--price .price--tag{
+        font-size: 20px;
+    }
+    .cart--button{
+        padding: 10px 20px;
+    }
+    .extended .nav--cart{
+        left: 30px;
+    }
 }
