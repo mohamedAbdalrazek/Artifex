@@ -10,7 +10,6 @@ A dynamic and stylish online store website built using React, JavaScript, CSS, B
 - - [Checkout](#checkout)
 - [Technologies Used](#technologies-used)
 - [Demo](#demo)
-- [Installation](#installation)
 - [Contact](#contact)
 
 ## Overview
@@ -52,25 +51,7 @@ The Awesome Store Website is built using a combination of modern web technologie
 - **Git:** A distributed version control system that tracks changes to the project's source code over time. It facilitates collaboration, allows for easy branching, and helps manage different versions of the codebase.
 
 These technologies come together to create a modern and efficient online store experience for users, with a focus on performance, responsiveness, and maintainability.
-## Installation
-To run the Awesome Store Website locally on your machine, follow these steps:
 
-   ```bash
-    # Clone the repository
-    git clone https://github.com/mohamedAbderlazek/Artifex.git
-```
-# Navigate to the project directory
-```bash
-    cd Artifex
-```
-# Install dependencies
-```bash    
-    npm install
-````
-# Start the development server
-```bash     
-    npm run dev
-```
 ## contact
 
 If you have any questions, feedback, or would like to collaborate, feel free to get in touch:
