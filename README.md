@@ -13,7 +13,7 @@ A dynamic and stylish online store website built using React, JavaScript, CSS, B
 - [Contact](#contact)
 
 ## Overview
-The Awesome Store Website is a fictional online store that showcases a range of products. It provides users with an immersive shopping experience, complete with a product catalog, shopping cart, and seamless checkout process.
+Artifex Store Website is a fictional online store that showcases a range of products. It provides users with an immersive shopping experience, complete with a product catalog, shopping cart, and seamless checkout process.
 
 ## Features
 Explore the main features of the Artifex Store Website:
