@@ -113,7 +113,7 @@ function Cart(props) {
                 </div>
                 <div className="col-2 item--image-container">
                     <img
-                        src={`/Artifex/assets/${item.name}.jpg`}
+                        src={`/Artifex/assets/${item.name}.webp`}
                         alt=""
                         className="item--image"
                     />

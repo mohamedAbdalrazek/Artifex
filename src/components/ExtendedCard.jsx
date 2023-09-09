@@ -46,7 +46,7 @@ function ExtendedCard(props) {
                 </div>
                 <div className="col-4 extended--image-cover">
                     <img
-                        src={`/Artifex/assets/${currentItem.name}.jpg`}
+                        src={`/Artifex/assets/${currentItem.name}.webp`}
                         alt=""
                         className="extended--image"
                     />
